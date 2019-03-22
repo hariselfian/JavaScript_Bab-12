@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Latihan 13</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("button").click(function(){
+				alert("Background color =" +$("p").css("background-color"));
+			});
+		});
+	</script>
+</head>
+<body>
+	<h2>This is a heading</h2>
+
+	<p style="background-color:#ff0000">this is a paragraph.</p>
+	<p style="background-color:#00ff00">this is a paragraph.</p>
+	<p style="background-color:#0000ff">this is a paragraph.</p>
+
+	<button>return background-color of p</button>
+
+</body>
+</html>
